@@ -1,0 +1,23 @@
+how much is x
+how much is iv
+how much is mmm
+iglu is i
+vaca is v
+x is xuxa
+l is lego
+casa is c
+dado is d
+pele is m
+show dictionary
+show inventory
+ii pao is 100
+xuxa disco is 50 conto
+i carro is 2 rins
+dado dado is 6 dado
+show inventory
+how many is iglu pao
+how many is xuxa disco
+how many is dado disco
+how many is m carro
+how many is pele dado
+exit
