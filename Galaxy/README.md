@@ -14,13 +14,13 @@ galaxy.rb [options] [input]
 
 ## Design
 
-- Galaxy.rb = Recebe input do arquivo e do usuário
+- Galaxy.rb = Receive input from file and user.
 
 - bin/
-	- Actions.rb = A lógica príncipal, ele é responsavel de tratar o input e chamar a os métodos necessários
-	- Converter.rb = Cuida de converter numeros, romanos e palavras para outros tipos e algumas operações matemáticas
-	- Inventory.rb = Objeto que contem os metodos e váriaveis para armazenar itens
-	- RomanDic.rb = Objeto que metodos e váriaveis para linkar palavras com os numeros romanos
+	- Actions.rb = Main core. Responsible to manage input and call other functions.
+	- Converter.rb = Convert numbers, romans and alien words to other types and some math operations.
+	- Inventory.rb = Manage inventory.
+	- RomanDic.rb = Manage dictionary.
 
 - res/
-	- Resources.rb = Contem strings e mensagens que podem ser alteradas sem mexer no codigo príncipal
+	- Resources.rb = Contains common strings.
