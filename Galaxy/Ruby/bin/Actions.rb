@@ -63,7 +63,7 @@ class Actions
       end
 
     elsif tokens.include? "help"
-      puts @resources.helpSyntax
+      puts @resources.helpTitle + "\n" + @resources.helpArgs + "\n" + @resources.helpSyntax
 
     else
       puts "I have no idea what you are talking about. Check again!"

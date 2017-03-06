@@ -1,4 +1,4 @@
-![Galaxy banner](art/Banner.png)
+![Galaxy banner](Art/Banner.png)
 
 A program to help interstellar merchant fellows in convert roman numbers to alien numbers and both to numbers.
 

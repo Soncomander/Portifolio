@@ -8,7 +8,12 @@ class Resources
     @showItens = "\n\tInventory;" +
                  "\n\tDictionary;"
 
-    @helpSyntax = "------------------------------------------------" +
+    @helpTitle = "\n\t\t      ___       __  " +
+                 "\n\t\t|__| |__  |    |__) " +
+                 "\n\t\t|  | |___ |___ |    "
+
+
+    @helpSyntax = "" +
                 "\nHow to link word with roman letter?" +
                 "\nSimple! Type a word than 'is' and the letter! Example:"+
                 "\n\tCar is I" +
@@ -22,13 +27,13 @@ class Resources
                 "\nJust type 'show' and what you wanna see. Example:" +
                 "\n\tShow inventory. => Display your itens" +
                 "\n\tShow dictionary. => Display your linked words" +
-                "\n------------------------------------------------"
+                "\n"
 
-    @helpArgs = "------------------------------------------------" +
+    @helpArgs = "" +
               "\n\t--help or -h:\tShow this help" +
               "\n\t--input or -i:\tSet input file" +
               "\n\t--exit or -e:\tExit when input file end (if using input file)"+
-              "\n------------------------------------------------"
+              "\n"
 
     @description = "A program to help any interstellar merchant fellow, using roman letters and the local language."
     @creator = "Samuel Mendes"
@@ -40,6 +45,10 @@ class Resources
 
   def showItens
     return @showItens
+  end
+
+  def helpTitle
+    return @helpTitle
   end
 
   def helpSyntax
